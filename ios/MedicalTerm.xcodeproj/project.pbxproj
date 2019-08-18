@@ -8,35 +8,37 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* MedicalTermTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MedicalTermTests.m */; };
 		046D675EF7239546E90B2E9B /* libPods-MedicalTerm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B35BB5816D07EAA41398B4 /* libPods-MedicalTerm.a */; };
+		12C244DD32244C8F92882B72 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CABB45DCE294510A067DBE3 /* Octicons.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2AF0E11164724FDA8C64010C /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E30F5AF1644A1098BBCA56 /* Entypo.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D4E9382B6D94B45BB0E2914 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 293A6A5F44CB4EF88BF63842 /* FontAwesome5_Regular.ttf */; };
 		2DCD954D1E0B4F2C00145EB5 /* MedicalTermTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MedicalTermTests.m */; };
+		304FBE750986425B8CF273C3 /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A356FF8475764CEAB625C995 /* Roboto_medium.ttf */; };
+		3D063C98C37D4EA0AE5F68A7 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B205F25DB17049CCBD808D71 /* FontAwesome5_Solid.ttf */; };
+		3EFCB54B9EBB4912B801285E /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1213CAAFE02040E8BFA72384 /* MaterialIcons.ttf */; };
+		53C66B13EB7343F5BE53999C /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CB5F99825DF40D59E0C8BA0 /* Roboto.ttf */; };
+		70A3197A7087482B8675DBD2 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE789CA81C404824A5BA9354 /* FontAwesome5_Brands.ttf */; };
 		72B01745DA916F3CF4DFA74D /* libPods-MedicalTerm-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A85970A49DAC70EC5EE0E33 /* libPods-MedicalTerm-tvOS.a */; };
 		735C0FADFFD6CC654FA78783 /* libPods-MedicalTerm-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6B4CB9A3A0700BF6F5C2E5 /* libPods-MedicalTerm-tvOSTests.a */; };
-		ED21D9A1D15E297AED2A09D1 /* libPods-MedicalTermTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3602DEF6B3D2BCF982B7BE4C /* libPods-MedicalTermTests.a */; };
 		7AC0319768F9497D8C013201 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27CB66F4552B403CB3F4B3D1 /* AntDesign.ttf */; };
-		2AF0E11164724FDA8C64010C /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E30F5AF1644A1098BBCA56 /* Entypo.ttf */; };
-		C973E26E85A54362A7DCE069 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11D35A3CE0824B6299789E5B /* EvilIcons.ttf */; };
-		DE0FB5093A494F5DB2BD69DF /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2E1F9320CB44AB7BD646F9B /* Feather.ttf */; };
-		CFC9598C34A74B6C89A3FC07 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47CF96A0500F49DC82D2D26A /* FontAwesome.ttf */; };
-		70A3197A7087482B8675DBD2 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE789CA81C404824A5BA9354 /* FontAwesome5_Brands.ttf */; };
-		2D4E9382B6D94B45BB0E2914 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 293A6A5F44CB4EF88BF63842 /* FontAwesome5_Regular.ttf */; };
-		3D063C98C37D4EA0AE5F68A7 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B205F25DB17049CCBD808D71 /* FontAwesome5_Solid.ttf */; };
-		D9BFE73FFC714145B3313CC8 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A248993434423DBCE1E275 /* Foundation.ttf */; };
-		B56AD965A9B043CE98423669 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 318A159F52AE43D79CCECF31 /* Ionicons.ttf */; };
-		D151506D4B1047448E35C13C /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DBF7ADDBBCF4E939DBA998A /* MaterialCommunityIcons.ttf */; };
-		3EFCB54B9EBB4912B801285E /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1213CAAFE02040E8BFA72384 /* MaterialIcons.ttf */; };
-		12C244DD32244C8F92882B72 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CABB45DCE294510A067DBE3 /* Octicons.ttf */; };
-		304FBE750986425B8CF273C3 /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A356FF8475764CEAB625C995 /* Roboto_medium.ttf */; };
-		53C66B13EB7343F5BE53999C /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CB5F99825DF40D59E0C8BA0 /* Roboto.ttf */; };
-		B35FB537F49C412DA12E7108 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 737807F71D66455EA8B0C707 /* rubicon-icon-font.ttf */; };
 		9D1895C380064E04B634D6BE /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C1DF4DCB4554C34A616FDEB /* SimpleLineIcons.ttf */; };
+		B35FB537F49C412DA12E7108 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 737807F71D66455EA8B0C707 /* rubicon-icon-font.ttf */; };
+		B56AD965A9B043CE98423669 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 318A159F52AE43D79CCECF31 /* Ionicons.ttf */; };
+		C973E26E85A54362A7DCE069 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11D35A3CE0824B6299789E5B /* EvilIcons.ttf */; };
+		CFC9598C34A74B6C89A3FC07 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47CF96A0500F49DC82D2D26A /* FontAwesome.ttf */; };
+		D151506D4B1047448E35C13C /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DBF7ADDBBCF4E939DBA998A /* MaterialCommunityIcons.ttf */; };
+		D9BFE73FFC714145B3313CC8 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A248993434423DBCE1E275 /* Foundation.ttf */; };
+		DE0FB5093A494F5DB2BD69DF /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2E1F9320CB44AB7BD646F9B /* Feather.ttf */; };
+		ED21D9A1D15E297AED2A09D1 /* libPods-MedicalTermTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3602DEF6B3D2BCF982B7BE4C /* libPods-MedicalTermTests.a */; };
 		F81B0AD273784DB6906208C0 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43E4490818814447AD27EA79 /* Zocial.ttf */; };
+		02FF80EDCA944F3DA8CEFA52 /* SpectralSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEE4894D28F64B85BDF39BDE /* SpectralSC-Regular.ttf */; };
+		F342495667E54331BAB501C7 /* SpectralSC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9EB750E4BE646A7A8C77069 /* SpectralSC-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MedicalTermTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedicalTermTests.m; sourceTree = "<group>"; };
 		0D327502CA55D75E419811BE /* Pods-MedicalTermTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalTermTests.release.xcconfig"; path = "Target Support Files/Pods-MedicalTermTests/Pods-MedicalTermTests.release.xcconfig"; sourceTree = "<group>"; };
+		11D35A3CE0824B6299789E5B /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		1213CAAFE02040E8BFA72384 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* MedicalTerm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalTerm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MedicalTerm/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MedicalTerm/AppDelegate.m; sourceTree = "<group>"; };
@@ -73,17 +77,32 @@
 		1F6B4CB9A3A0700BF6F5C2E5 /* libPods-MedicalTerm-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MedicalTerm-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25CF0B2DAE6641F1A02DCEC1 /* Pods-MedicalTerm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalTerm.release.xcconfig"; path = "Target Support Files/Pods-MedicalTerm/Pods-MedicalTerm.release.xcconfig"; sourceTree = "<group>"; };
 		2651E4A90A15785B162620B9 /* Pods-MedicalTerm-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalTerm-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedicalTerm-tvOSTests/Pods-MedicalTerm-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		27CB66F4552B403CB3F4B3D1 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		293A6A5F44CB4EF88BF63842 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		2BFBE1CB3053FD130B38AB1D /* Pods-MedicalTerm-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalTerm-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MedicalTerm-tvOS/Pods-MedicalTerm-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* MedicalTerm-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MedicalTerm-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* MedicalTerm-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MedicalTerm-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		318A159F52AE43D79CCECF31 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		3602DEF6B3D2BCF982B7BE4C /* libPods-MedicalTermTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MedicalTermTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CABB45DCE294510A067DBE3 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		43E4490818814447AD27EA79 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		45F84593451B7414E4217BAC /* Pods-MedicalTerm-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalTerm-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MedicalTerm-tvOSTests/Pods-MedicalTerm-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		47CF96A0500F49DC82D2D26A /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		5CB5F99825DF40D59E0C8BA0 /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
 		6136560005D0E9A320EEFFF7 /* Pods-MedicalTerm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalTerm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedicalTerm/Pods-MedicalTerm.debug.xcconfig"; sourceTree = "<group>"; };
 		6700E5CDF4B2DF227D49A48C /* Pods-MedicalTerm-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalTerm-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MedicalTerm-tvOSTests/Pods-MedicalTerm-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		71C9A058A2E9B89823D1C9D4 /* Pods-MedicalTermTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalTermTests.debug.xcconfig"; path = "Target Support Files/Pods-MedicalTermTests/Pods-MedicalTermTests.debug.xcconfig"; sourceTree = "<group>"; };
+		72A248993434423DBCE1E275 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		737807F71D66455EA8B0C707 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		7C1DF4DCB4554C34A616FDEB /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		7DBF7ADDBBCF4E939DBA998A /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		8E61D0A34F5FB2DC58F5C185 /* Pods-MedicalTerm-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalTerm-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedicalTerm-tvOSTests/Pods-MedicalTerm-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95E30F5AF1644A1098BBCA56 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		9A85970A49DAC70EC5EE0E33 /* libPods-MedicalTerm-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MedicalTerm-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B35BB5816D07EAA41398B4 /* libPods-MedicalTerm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MedicalTerm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A356FF8475764CEAB625C995 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		B205F25DB17049CCBD808D71 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		B2E1F9320CB44AB7BD646F9B /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		B4FD11F4F4FF3AF013761C92 /* Pods-MedicalTermTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalTermTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedicalTermTests/Pods-MedicalTermTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7F9C1DAF6606DA232750381 /* Pods-MedicalTerm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalTerm.debug.xcconfig"; path = "Target Support Files/Pods-MedicalTerm/Pods-MedicalTerm.debug.xcconfig"; sourceTree = "<group>"; };
 		BEAFDFF6AF12B4752EA0AFEA /* Pods-MedicalTerm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalTerm.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedicalTerm/Pods-MedicalTerm.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,24 +111,9 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		FB42B15C25426C37EF175707 /* Pods-MedicalTermTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalTermTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedicalTermTests/Pods-MedicalTermTests.release.xcconfig"; sourceTree = "<group>"; };
-		27CB66F4552B403CB3F4B3D1 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		95E30F5AF1644A1098BBCA56 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		11D35A3CE0824B6299789E5B /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B2E1F9320CB44AB7BD646F9B /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		47CF96A0500F49DC82D2D26A /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FE789CA81C404824A5BA9354 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		293A6A5F44CB4EF88BF63842 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B205F25DB17049CCBD808D71 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		72A248993434423DBCE1E275 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		318A159F52AE43D79CCECF31 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7DBF7ADDBBCF4E939DBA998A /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1213CAAFE02040E8BFA72384 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3CABB45DCE294510A067DBE3 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A356FF8475764CEAB625C995 /* Roboto_medium.ttf */ = {isa = PBXFileReference; name = "Roboto_medium.ttf"; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5CB5F99825DF40D59E0C8BA0 /* Roboto.ttf */ = {isa = PBXFileReference; name = "Roboto.ttf"; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		737807F71D66455EA8B0C707 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7C1DF4DCB4554C34A616FDEB /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		43E4490818814447AD27EA79 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FE789CA81C404824A5BA9354 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		FEE4894D28F64B85BDF39BDE /* SpectralSC-Regular.ttf */ = {isa = PBXFileReference; name = "SpectralSC-Regular.ttf"; path = "../assets/fonts/SpectralSC-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B9EB750E4BE646A7A8C77069 /* SpectralSC-Bold.ttf */ = {isa = PBXFileReference; name = "SpectralSC-Bold.ttf"; path = "../assets/fonts/SpectralSC-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,7 +254,7 @@
 			sourceTree = "<group>";
 		};
 		D41F18FE03A64E73A82E886F /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				27CB66F4552B403CB3F4B3D1 /* AntDesign.ttf */,
 				95E30F5AF1644A1098BBCA56 /* Entypo.ttf */,
@@ -270,10 +274,12 @@
 				737807F71D66455EA8B0C707 /* rubicon-icon-font.ttf */,
 				7C1DF4DCB4554C34A616FDEB /* SimpleLineIcons.ttf */,
 				43E4490818814447AD27EA79 /* Zocial.ttf */,
+				FEE4894D28F64B85BDF39BDE /* SpectralSC-Regular.ttf */,
+				B9EB750E4BE646A7A8C77069 /* SpectralSC-Bold.ttf */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
 			path = "";
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -436,6 +442,8 @@
 				B35FB537F49C412DA12E7108 /* rubicon-icon-font.ttf in Resources */,
 				9D1895C380064E04B634D6BE /* SimpleLineIcons.ttf in Resources */,
 				F81B0AD273784DB6906208C0 /* Zocial.ttf in Resources */,
+				02FF80EDCA944F3DA8CEFA52 /* SpectralSC-Regular.ttf in Resources */,
+				F342495667E54331BAB501C7 /* SpectralSC-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,7 +662,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4FD11F4F4FF3AF013761C92 /* Pods-MedicalTermTests.debug.xcconfig */;
+			baseConfigurationReference = 71C9A058A2E9B89823D1C9D4 /* Pods-MedicalTermTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -677,7 +685,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB42B15C25426C37EF175707 /* Pods-MedicalTermTests.release.xcconfig */;
+			baseConfigurationReference = 0D327502CA55D75E419811BE /* Pods-MedicalTermTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -697,7 +705,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6136560005D0E9A320EEFFF7 /* Pods-MedicalTerm.debug.xcconfig */;
+			baseConfigurationReference = B7F9C1DAF6606DA232750381 /* Pods-MedicalTerm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -718,7 +726,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEAFDFF6AF12B4752EA0AFEA /* Pods-MedicalTerm.release.xcconfig */;
+			baseConfigurationReference = 25CF0B2DAE6641F1A02DCEC1 /* Pods-MedicalTerm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -738,7 +746,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4CCBBB2F6DB83671E8E3E11 /* Pods-MedicalTerm-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 1CBC08484B65C5E781A6E6B5 /* Pods-MedicalTerm-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -766,7 +774,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9E92662FD1A536FC8C22B82 /* Pods-MedicalTerm-tvOS.release.xcconfig */;
+			baseConfigurationReference = 2BFBE1CB3053FD130B38AB1D /* Pods-MedicalTerm-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -794,7 +802,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E61D0A34F5FB2DC58F5C185 /* Pods-MedicalTerm-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 45F84593451B7414E4217BAC /* Pods-MedicalTerm-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -821,7 +829,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2651E4A90A15785B162620B9 /* Pods-MedicalTerm-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 6700E5CDF4B2DF227D49A48C /* Pods-MedicalTerm-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
