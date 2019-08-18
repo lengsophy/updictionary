@@ -8,8 +8,13 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "axios": "^0.19.0",
+    "immutability-helper": "^3.0.1",
+    "immutable": "^4.0.0-rc.12",
+    "native-base": "^2.13.5",
     "react": "16.8.6",
-    "react-native": "0.60.4"
+    "react-native": "0.60.4",
+    "react-navigation": "^3.11.1"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
@@ -23,5 +28,9 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:lengsophy/updictionary.git",
+  "author": "siya ny <siya.ny01@gmail.com>",
+  "license": "MIT"
 }
