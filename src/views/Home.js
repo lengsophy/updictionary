@@ -9,9 +9,6 @@ class Home extends Component {
     super(props);
   }
 
-  _navigateSearchProvider() {
-    this.props.navigation.navigate('SearchProvider')
-  }
 
   render () {
     const {
@@ -30,10 +27,8 @@ class Home extends Component {
           <Text style={ searchCaption }>Medical Terminology</Text>
           <Text style={ [searchCaption, { paddingBottom: 4}] }>Dictionary</Text>
           <SearchBar
-            navigateSearchProvider={ this._navigateSearchProvider.bind() }
           />
         </View>
-        <View style={ footerStyle }></View>
       </View>
     )
   }

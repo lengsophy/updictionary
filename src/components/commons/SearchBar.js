@@ -14,7 +14,7 @@ class SearchBar extends Component {
     return (
       <Item rounded style={ searchBoxContainerStyle } >
         <Input placeholder='Search ...' />
-        <Button transparent onPress={ this.props.navigateSearchProvider() }>
+        <Button transparent>
           <Icon name='search' style={ searchIconStyle } />
         </Button>
       </Item>
