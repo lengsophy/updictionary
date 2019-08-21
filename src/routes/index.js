@@ -8,18 +8,9 @@ import SearchProvider from '../views/SearchProvider';
 import Setting from '../views/Setting';
 import Bookmark from '../views/Bookmark';
 
-const TabNavigation = createBottomTabNavigator(
-  {
-    Bookmark: { screen: Bookmark },
-    Setting: { screen: Setting },
-  }
-)
-
 const drawer = createStackNavigator(
   {
-    Home: { screen: Home },
     SearchProvider: { screen: SearchProvider },
-    TabNavigation: { screen: TabNavigation },
   }, {
     initialRouteName: 'Home',
     navigationOptions: {
@@ -31,5 +22,21 @@ const drawer = createStackNavigator(
   },
 );
 
-const AppContainer = createAppContainer(drawer);
+const TabNavigation = createBottomTabNavigator(
+  {
+    Home: { screen: Home },
+    Bookmark: { screen: Bookmark },
+    Setting: { screen: Setting },
+  }, {
+    initialRouteName: 'Home',
+    lazy: false,
+    tabBarPosition: "bottom",
+    tabBarOptions: {
+      showIcon: true,
+      showLabel: true,
+    },
+  }
+)
+
+const AppContainer = createAppContainer(TabNavigation);
 export default AppContainer;
