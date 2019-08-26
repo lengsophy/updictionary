@@ -1,8 +1,6 @@
 import React from 'react';
 import { Platform, Dimensions, Image, View, Text } from 'react-native';
-import {
-  createStackNavigator, createBottomTabNavigator, createAppContainer
-} from 'react-navigation';
+import { createStackNavigator, createAppContainer } from 'react-navigation';
 import Home from '../views/Home';
 import SearchProvider from '../views/SearchProvider';
 import Setting from '../views/Setting';
@@ -10,6 +8,10 @@ import Bookmark from '../views/Bookmark';
 
 const drawer = createStackNavigator(
   {
+
+    Home: { screen: Home },
+    Bookmark: { screen: Bookmark },
+    Setting: { screen: Setting },
     SearchProvider: { screen: SearchProvider },
   }, {
     initialRouteName: 'Home',
@@ -22,21 +24,5 @@ const drawer = createStackNavigator(
   },
 );
 
-const TabNavigation = createBottomTabNavigator(
-  {
-    Home: { screen: Home },
-    Bookmark: { screen: Bookmark },
-    Setting: { screen: Setting },
-  }, {
-    initialRouteName: 'Home',
-    lazy: false,
-    tabBarPosition: "bottom",
-    tabBarOptions: {
-      showIcon: true,
-      showLabel: true,
-    },
-  }
-)
-
-const AppContainer = createAppContainer(TabNavigation);
+const AppContainer = createAppContainer(drawer);
 export default AppContainer;

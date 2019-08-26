@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
 import SearchBar from '../components/commons/SearchBar';
+import Footer from '../components/commons/Footer';
 import { PrimaryBlue, PrimaryGold } from '../components/commons/DefaultStyle';
 import { Fonts } from './assets/Fonts';
 
@@ -9,13 +10,25 @@ class Home extends Component {
     super(props);
   }
 
+  static navigationOptions = {
+    header: null,
+  };
+
   _navigateSearchProvider() {
     this.props.navigation.navigate('SearchProvider')
   }
 
+  _navigateSetting() {
+    this.props.navigation.navigate('Setting');
+  }
+
+  _navigateBookmark() {
+    this.props.navigation.navigate('Bookmark');
+  }
+
   render () {
     const {
-      container, headerStyle, bodyStyle, footerStyle, imageLogo, searchCaption
+      container, headerStyle, bodyStyle, imageLogo, searchCaption
     } = styles;
 
     return (
@@ -33,6 +46,10 @@ class Home extends Component {
             navigateSearchProvider={ this._navigateSearchProvider.bind(this) }
           />
         </View>
+        <Footer 
+          navigateSetting={ this._navigateSetting.bind(this) }
+          navigateBookmark={ this._navigateBookmark.bind(this) }
+        />
       </View>
     )
   }
@@ -55,10 +72,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     paddingLeft: 8,
     paddingRight: 8,
-  },
-  footerStyle: {
-    flex: 0.5,
-    backgroundColor: PrimaryBlue,
   },
   imageLogo: {
     height: '90%',
