@@ -1,0 +1,103 @@
+{
+  "data": [
+    {
+      "createdAt": "",
+      "updatedAt": "",
+      "id": 1,
+      "category": [
+        {
+          "createdAt": "",
+          "updatedAt": "",
+          "id": 1,
+          "category_en": "Medicine",
+        },
+      ],
+      "key_en": "abdomen",
+      "description_en": "The part of the body of a vertebrate containing the digestive and reproductive organs; the belly.",
+      "image_url": "https://images.vov.vn/w800/uploaded/laithin/2015_11_19/thuoc_tay_idai.jpg",
+      "tag": [
+        {
+          "createdAt": "",
+          "updatedAt": "",
+          "id": 1,
+          "year": "1",
+          "term": "1",
+        }
+      ],
+    }, {
+      "createdAt": "",
+      "updatedAt": "",
+      "id": 2,
+      "category": [
+        {
+          "createdAt": "",
+          "updatedAt": "",
+          "id": 2,
+          "category_en": "Phamary",
+        },
+      ],
+      "key_en": "antibiotic",
+      "description_en": "A medicine (such as penicillin or its derivatives) that inhibits the growth of or destroys microorganisms",
+      "image_url": "https://www.queenstreetpharmacy.com/uploads/UROr4Vpe/16658399_lel.jpg",
+      "tag": [
+        {
+          "createdAt": "",
+          "updatedAt": "",
+          "id": 1,
+          "year": "1",
+          "term": "1",
+        }
+      ],
+    }, {
+      "createdAt": "",
+      "updatedAt": "",
+      "id": 3,
+      "category": [
+        {
+          "createdAt": "",
+          "updatedAt": "",
+          "id": 1,
+          "category_en": "Medicine",
+        },
+      ],
+      "key_en": "craniotomy",
+      "description_en": "Surgical removal of a portion of the skull.",
+      "image_url": "https://provider.dexcom.com/sites/provider.dexcom.com/files/media/G4-G5%20Sample%20Rx.png",
+      "tag": [
+        {
+          "createdAt": "",
+          "updatedAt": "",
+          "id": 2,
+          "year": "1",
+          "term": "2",
+        }
+      ],
+    }, {
+      "createdAt": "",
+      "updatedAt": "",
+      "id": 4,
+      "category": [
+        {
+          "createdAt": "",
+          "updatedAt": "",
+          "id": 2,
+          "category_en": "Phamary",
+        },
+      ],
+      "key_en": "antibody",
+      "description_en": "A blood protein produced in response to and counteracting a specific antigen. Antibodies combine chemically with substances which the body recognizes as alien, such as bacteria, viruses, and foreign substances in the blood.",
+      "image_url": "https://de.verallia.com/sites/verallia.germany/files/images/graph10_batch_preparation-en.jpg",
+      "tag": [
+        {
+          "createdAt": "",
+          "updatedAt": "",
+          "id": 2,
+          "year": "1",
+          "term": "2",
+        }
+      ],
+    },
+  ],
+  "message": "Search Found",
+  "status": true,
+}

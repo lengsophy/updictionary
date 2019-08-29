@@ -3,16 +3,17 @@ import { Platform, Dimensions, Image, View, Text } from 'react-native';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 import Home from '../views/Home';
 import SearchProvider from '../views/SearchProvider';
+import VocabDetail from '../views/VocabDetail';
 import Setting from '../views/Setting';
 import Bookmark from '../views/Bookmark';
 
 const drawer = createStackNavigator(
   {
-
     Home: { screen: Home },
     Bookmark: { screen: Bookmark },
     Setting: { screen: Setting },
     SearchProvider: { screen: SearchProvider },
+    VocabDetail: { screen: VocabDetail }
   }, {
     initialRouteName: 'Home',
     navigationOptions: {

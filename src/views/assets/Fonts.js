@@ -1,4 +1,5 @@
 export const Fonts = {
   Primary: 'SpectralSC-Regular',
-  Bold: 'SpectralSC-Bold'
+  Bold: 'SpectralSC-Bold',
+  TextPrimary: 'Spectral-Regular',
 }

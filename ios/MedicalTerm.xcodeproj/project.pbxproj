@@ -39,6 +39,7 @@
 		F81B0AD273784DB6906208C0 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43E4490818814447AD27EA79 /* Zocial.ttf */; };
 		02FF80EDCA944F3DA8CEFA52 /* SpectralSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEE4894D28F64B85BDF39BDE /* SpectralSC-Regular.ttf */; };
 		F342495667E54331BAB501C7 /* SpectralSC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9EB750E4BE646A7A8C77069 /* SpectralSC-Bold.ttf */; };
+		D8EB9DEF33364277947F85C4 /* Spectral-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCC534A8711B4E15867E055B /* Spectral-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +115,7 @@
 		FE789CA81C404824A5BA9354 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		FEE4894D28F64B85BDF39BDE /* SpectralSC-Regular.ttf */ = {isa = PBXFileReference; name = "SpectralSC-Regular.ttf"; path = "../assets/fonts/SpectralSC-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		B9EB750E4BE646A7A8C77069 /* SpectralSC-Bold.ttf */ = {isa = PBXFileReference; name = "SpectralSC-Bold.ttf"; path = "../assets/fonts/SpectralSC-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FCC534A8711B4E15867E055B /* Spectral-Regular.ttf */ = {isa = PBXFileReference; name = "Spectral-Regular.ttf"; path = "../assets/fonts/Spectral-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,6 +278,7 @@
 				43E4490818814447AD27EA79 /* Zocial.ttf */,
 				FEE4894D28F64B85BDF39BDE /* SpectralSC-Regular.ttf */,
 				B9EB750E4BE646A7A8C77069 /* SpectralSC-Bold.ttf */,
+				FCC534A8711B4E15867E055B /* Spectral-Regular.ttf */,
 			);
 			name = Resources;
 			path = "";
@@ -444,6 +447,7 @@
 				F81B0AD273784DB6906208C0 /* Zocial.ttf in Resources */,
 				02FF80EDCA944F3DA8CEFA52 /* SpectralSC-Regular.ttf in Resources */,
 				F342495667E54331BAB501C7 /* SpectralSC-Bold.ttf in Resources */,
+				D8EB9DEF33364277947F85C4 /* Spectral-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

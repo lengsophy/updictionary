@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+import { getVocabsList } from '../actions/searchVocabs.action';
 import SearchBar from '../components/commons/SearchBar';
 import Footer from '../components/commons/Footer';
 import { PrimaryBlue, PrimaryGold } from '../components/commons/DefaultStyle';
@@ -13,6 +16,10 @@ class Home extends Component {
   static navigationOptions = {
     header: null,
   };
+
+  componentDidMount() {
+    this.props.getVocabsList();
+  }
 
   _navigateSearchProvider() {
     this.props.navigation.navigate('SearchProvider')
@@ -85,4 +92,15 @@ const styles = StyleSheet.create({
   }
 })
 
-export default Home;
+const mapDispatchToProps = (dispatch) => {
+  return ({
+    getVocabsList: bindActionCreators(getVocabsList, dispatch),
+  })
+}
+
+const mapStateToProps = ({ vocabsSeaching }) => {
+  const { vocabsList, loading, error } = vocabsSeaching;
+  return { vocabsList, loading, error };
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Home);
